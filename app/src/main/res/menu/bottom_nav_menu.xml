@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/watch_list"
+        android:title="@string/title_watchlist"/>
+
+    <item
+        android:id="@+id/navigation_orders"
+        android:icon="@drawable/orders"
+        android:title="@string/title_orders" />
+
+    <item
+        android:id="@+id/navigation_portfolio"
+        android:icon="@drawable/portfolio_bag"
+        android:title="@string/title_portfolio" />
+
+    <item
+        android:id="@+id/navigation_funds"
+        android:icon="@drawable/rupee_indian"
+        android:title="@string/title_funds" />
+
+    <item
+        android:id="@+id/navigation_invest"
+        android:icon="@drawable/money_bag"
+        android:title="@string/title_invest" />
+
+</menu>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_watchList">
+
+    <fragment
+        android:id="@+id/navigation_watchList"
+        android:name="com.example.octafxclone.ui.watchlist.WatchlistFragment"
+        android:label="@string/title_watchlist"
+        tools:layout="@layout/fragment_watchlist" />
+
+    <fragment
+        android:id="@+id/navigation_orders"
+        android:name="com.example.octafxclone.ui.portfolio.PortfolioFragment"
+        android:label="@string/title_orders"
+        tools:layout="@layout/fragment_orders" />
+
+    <fragment
+        android:id="@+id/navigation_portfolio"
+        android:name="com.example.octafxclone.ui.orders.OrdersFragment"
+        android:label="@string/title_portfolio"
+        tools:layout="@layout/fragment_portfolio" />
+
+    <fragment
+        android:id="@+id/navigation_funds"
+        android:name="com.example.octafxclone.ui.orders.OrdersFragment"
+        android:label="@string/title_funds"
+        tools:layout="@layout/fragment_funds" />
+
+    <fragment
+        android:id="@+id/navigation_invest"
+        android:name="com.example.octafxclone.ui.orders.OrdersFragment"
+        android:label="@string/title_invest"
+        tools:layout="@layout/fragment_invest" />
+</navigation>
